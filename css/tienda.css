@@ -1,0 +1,441 @@
+body {
+    color: rgb(9, 139, 244);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/191/774/454/lawn-grass-green-thick-wallpaper-preview.jpg);
+    margin: 0;
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 78px;
+}
+
+nav a {
+    text-align: center;
+    border: 2px solid rgb(0, 77, 5);
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(0, 77, 5);
+    padding: 16px;
+    padding-bottom: 19px;
+    color: white;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#tnd {
+    border: 2px solid rgb(12, 197, 12);
+}
+
+.active {
+    background-color: #00fbff;
+}
+
+header {
+    background-color: black;
+}
+
+.bloque1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja2 {
+    background-color: rgb(255, 255, 255);
+    color: rgba(152, 23, 114, 0.46);
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.caja2:hover {
+    border: 3px solid rgb(85, 3, 85);
+}
+
+.foto1 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto2 {
+    width: 50%;
+    border: 1px solid black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.filas {
+    display: flex;
+    flex-direction: row;
+}
+
+.productos {
+    width: 330px;
+    height: 400px;
+    background-color: rgba(0, 77, 5, 0.654);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(4, 70, 1, 0.2);
+    margin: 80px;
+    overflow: hidden;
+    transition: all 0.30s;
+}
+
+.productos:hover {
+    /*hover es un pseudo elemento que nos sirve para que al pasar el mouse por encima del elemento seleccionado agregue un efecto de sombra*/
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(4, 70, 1, 0.2);
+}
+
+.productos img {
+    width: 330px;
+    height: 220px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+}
+
+.descripcion {
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.precio {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+}
+
+h4 {
+    color: white;
+}
+
+.redes {
+    width: 40px;
+    height: 40px;
+}
+
+.patrocinadores {
+    width: 150px;
+    height: 150px;
+}
+
+#foto3 {
+    margin-top: 10px;
+    height: 210px;
+    width: 90px;
+}
+
+.patro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ptr {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+#cosas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    padding: 10px;
+}
+
+#cosas img {
+    height: 50px;
+    width: 50px;
+}
+
+footer {
+    background-image: url(https://st4.depositphotos.com/1500568/40371/i/600/depositphotos_403717764-stock-photo-3d-square-blocks-pattern-high.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 380px;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+address {
+    width: 380px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(231, 224, 224);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #105508;
+    border-radius: 7px;
+  }
+  
+  ::-webkit-scrollbar-button:start {
+    background-image: url('../Imagenes/flechaArriba.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(180deg);
+  }
+  ::-webkit-scrollbar-button:end {
+    background-image: url('../Imagenes/flechaAbajo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+@media screen and (max-width:843px) {
+
+    /*El @media lo ponemos para ajustar todo el contenido al tipo de pantalla que se presente*/
+    body,footer {
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    
+    div[class~="flex-container"] {
+        flex-wrap: wrap;
+        width: 100vw;
+        height: auto;
+        margin: auto;
+    }
+
+    div[class~="productos"] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: auto;
+    }
+
+    div[class~="filas"] {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100vw;
+        margin: auto;
+    }
+}
+
+
+/*Cards*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+    gap: 1rem;
+    overflow: hidden;
+}
+
+@media (min-width: 702px) and (max-width: 943px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.card-1::before {
+    background: url("../Imagenes/camisetalocal.jpg");
+}
+
+.card-2::before {
+    background: url("https://cdn2.mediotiempo.com/uploads/media/2016/05/05/bocarosa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-3::before {
+    background: url("https://res.cloudinary.com/futbol-factory/image/upload/c_pad,f_auto,h_2000,w_1600/v1/products/233437_4.jpg");
+}
+
+.card-4::before {
+    background: url("https://cdn.shopify.com/s/files/1/0448/3609/4115/products/GR9029_RMCFMS0047-04_500x480.jpg?v=1631218609");
+}
+.card-5::before {
+    background: url("https://marcadegol.com/fotos//2018/05/reusch-prisma-pro-ax2-evolution-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-6::before {
+    background: url("../Imagenes/Dibu.jpg");
+}
+
+.card {
+    height: 400px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-size: cover;
+    position:relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+
+.card:hover {
+    opacity: 1;
+}
+
+.card:hover .text {
+    top: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.card:hover::before {
+    transform: scale(1.1) translateY(-4%);
+}
+
+.card::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 500ms;
+    opacity: 0;
+    z-index: -1;
+}
+
+.card::before {
+    position: absolute;
+    content: "";
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition-duration: 500ms;
+    opacity: 1;
+    z-index: -1;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition-duration: 500ms;
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.text p {
+    font-size: 0.75rem;
+}
+
+.text a {
+    text-decoration: none;
+    color: #252525;
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    border-radius: 100vmax;
+    font-weight: bold;
+    transition-duration: 300ms;
+}
+
+.text a:hover {
+    background-color: #252525;
+    color: white;
+}

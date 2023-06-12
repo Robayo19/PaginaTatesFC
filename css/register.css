@@ -1,0 +1,169 @@
+body {
+    background: linear-gradient(#1c487af4, white);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main {
+    border: 2px solid grey;
+    border-top: 7px solid rgb(4, 35, 61);
+    padding: 15px;
+    width: 560px;
+    height: 700px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#imagen {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 0;
+    top: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.titulo {
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(4, 35, 61);
+}
+
+input {
+    width: 350px;
+    margin-left: 10px;
+    padding: 17px;
+}
+
+.persona input {
+    width: 136px;
+}
+
+.persona .apellido i {
+    margin-left: 10px;
+}
+
+.persona {
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#pide{
+    font-size: 11px;
+    width: 380px;
+    margin-left: 32px;
+    color: gray;
+}
+#equis,
+#equis2,
+#equis3,#equis4,#equis5,#equis6 {
+    position: absolute;
+    visibility: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#mal {
+    position: absolute;
+    visibility: hidden;
+    margin-top: 8px;
+    margin-left: 2px;
+    padding: 5px;
+    font-size: 11px;
+    border: 2px solid red
+}
+.check {
+    display: flex;
+    margin-right: 50px;
+}
+
+.check input {
+    width: 15px;
+}
+
+#link2,
+#link2:active,
+#link2:visited {
+    color: rgb(11, 77, 130);
+}
+
+#boton {
+    padding: 12px;
+    color: rgb(4, 35, 61);
+    font-size: 17px;
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #fff;
+    transition: .5s;
+    letter-spacing: 3px;
+    border: 3px solid rgb(4, 35, 61);
+    
+}
+
+#boton:hover {
+    background: rgb(30, 84, 128);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #1bb3f4,
+        0 0 20px rgb(4, 35, 61),
+        0 0 40px rgb(4, 35, 61),
+        0 0 90px rgb(4, 35, 61);
+}
+
+#boton:active {
+    cursor: progress;
+}
+
+.new {
+    transition: 1s;
+    border: 2px solid grey;
+    border-top: 7px solid rgb(4, 35, 61);
+    padding: 15px;
+    width: 500px;
+    height: 330px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(2px, 2px);
+    }
+
+    50% {
+        transform: translate(-2px, -2px);
+    }
+
+    75% {
+        transform: translate(-2px, 2px);
+    }
+
+    100% {
+        transform: translate(2px, -2px);
+    }
+    
+}

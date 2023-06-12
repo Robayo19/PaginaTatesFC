@@ -1,0 +1,4 @@
+id,idproducto,idusuario,cantidad,fecha_envio, fecha_entrega
+1,4,5,1, 2021-05-12,2021-05-20
+2,1,4,2,2019-08-07,2019-08-16
+3,2,6,3,2022-03-30,2022-04-05

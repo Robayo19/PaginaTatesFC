@@ -1,0 +1,250 @@
+body {
+    background-image: url("../Imagenes/emblema.png");
+    background-repeat: repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 850px;
+    height: 600px;
+    background: linear-gradient(#111927, #335377f4);
+}
+
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-right: 4px solid black;
+}
+
+.preguntacontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    margin-top: 35px;
+}
+
+#pregunta {
+    width: 69%;
+    font-size: 23px;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: rgb(35, 74, 108);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.363);
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#portada {
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+}
+
+.registrar {
+    display: flex;
+    margin-top: 75px;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 120px;
+    background-color: rgb(21, 42, 60);
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.549);
+    border-radius: 10px;
+}
+
+#register {
+    font-size: 22px;
+    color: #fff;
+}
+
+#p2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.login {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    margin-right: 10px;
+}
+
+.check {
+    display: flex;
+    width: 40px;
+}
+
+#sesion {
+    color: #fff;
+}
+
+#link {
+    margin-top: 10px;
+    color: #fff;
+    width: 40px;
+}
+
+#link:visited {
+    color: #fff;
+}
+
+.email,
+.contraseña {
+    position: relative;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.email input,
+.contraseña input {
+    width: 110%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    
+    border: none;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    padding-top: 20px;
+}
+
+.email label,
+.contraseña label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+}
+
+.email input:focus::placeholder,
+.contraseña input:focus::placeholder {
+    transition: 0.5s;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+    transform: translateY(-18px);
+
+}
+#username{
+    width: 320px;
+    margin-left: 25px;
+}
+.check {
+    margin-left: 110px;
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+}
+
+#link {
+    width: 90%;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+#boton {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #061a27;
+
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 60px;
+    letter-spacing: 4px;
+    border: 3px solid #03e9f4;
+    margin-left: 40x;
+}
+
+#boton:hover {
+    background: #03e9f4;
+    color: #111927f0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #05a7ed,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
+
+#boton:active {
+    cursor: progress;
+}
+
+.text1, .text2 {
+    text-align: center;
+}
+
+#pide{
+    font-size: 11px;
+    width: 290px;
+    color: gray;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: translate(0);
+      }
+      25% {
+        transform: translate(2px, 2px);
+      }
+      50% {
+        transform: translate(-2px, -2px);
+      }
+      75% {
+        transform: translate(-2px, 2px);
+      }
+      100% {
+        transform: translate(2px, -2px);
+      }
+}

@@ -1,0 +1,7 @@
+id,nombre,apellido,numero,direccion,edad,correo electronico,contraseñaid_rol
+1,Jose,Vera,603699264,Herrera 2,19,josevera@gmail\.com,Contrasena12-,1
+2,Juan,Robayo,658396556,Bravo Murillo 340,18,juanrobayo@gmail\.com,Contrasena12-,1
+3,David,Chavarria,722564907,Colombia 3,19,davidchavarria@gmail\.com,Contrasena12-,1
+4,Miguel,Miguelito,654328104,Calle Alpargata 3,20,miguelito@gmail\.com,Contrasena34-,2
+5,Javier,Tejero,722482303,Calle Real Madrid 14,29,javiertejerito@gmail\.com,Contrasena34-,2
+6,Sergio,Fontan,690975343,Calle Trabajodediez 8,27,sergiolebron@gmail\.com,Contrasena34-,2

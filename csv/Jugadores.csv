@@ -1,0 +1,14 @@
+id, nombre, apellido, dorsal, posicion
+1,Alberto,Canadas,13,portero
+2,Jose,Vera,21,portero
+3,Diego, Lopez,4,defensa
+4,Andres,Pino,12,defensa
+5,Adrian,Gonzalez,15,defensa
+6,Ivan,Alonso,18,defensa
+7,Hugo,Dongil,6,mediocentro
+8,Alexis,Quisilema,7,mediocentro
+9,Sergio,Villafaina,8,mediocentro
+10,Gabriel, Ramirez,11,mediocentro
+11,Alvaro,Cascon,97,mediocentro
+12,Alfredo,Cobos,9,delantero
+13,Jesus,Ramirez,10,delantero

@@ -1,0 +1,267 @@
+body {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-image: url("../Imagenes/mvp.png");
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 78px;
+}
+
+nav a {
+    text-align: center;
+    border: 2px solid  rgb(0, 77, 5);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(0, 77, 5);
+    padding: 16px;
+    color: white;
+    align-items: center;
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#acc {
+    border: 2px solid rgb(12, 197, 12);
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+header {
+    color: rgb(255, 255, 255);
+}
+
+.bloque1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.historiaTexto {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.caja1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: black;
+}
+
+.foto1 {
+    display: block;
+    width: 100%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding-bottom: 40px;
+}
+
+#jugadores {
+    float: right;
+}
+
+#enviar {
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+}
+
+#cosas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    padding: 10px;
+}
+#cosas img{
+    height: 50px;
+    width: 50px;
+  }
+
+.redes {
+    width: 40px;
+    height: 40px;
+}
+
+.patrocinadores {
+    width: 150px;
+    height: 150px;
+}
+
+address {
+    width: 380px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+footer {
+    background-image: url(https://st4.depositphotos.com/1500568/40371/i/600/depositphotos_403717764-stock-photo-3d-square-blocks-pattern-high.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 380px;
+}
+
+#foto3 {
+    margin-top: 10px;
+    height: 210px;
+    width: 90px;
+}
+
+.patro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ptr {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(231, 224, 224);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #105508;
+    border-radius: 7px;
+  }
+  
+  ::-webkit-scrollbar-button:start {
+    background-image: url('../Imagenes/flechaArriba.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(180deg);
+  }
+  ::-webkit-scrollbar-button:end {
+    background-image: url('../Imagenes/flechaAbajo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+@media screen and (max-width:500px) {
+    body,footer {
+        flex-wrap: wrap;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    header img[src="https://madridfutbol7.es/wp-content/uploads/2022/08/Tates-FC-Madridfutbol7.jpg"] {
+        display: none;
+    }
+
+}
+
+.wrapper{
+    margin-top: 10px;
+}
+
+.ccform {
+   margin: 0 auto;
+    width: 800px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:#298fc6; 
+	float:left;
+	padding:8px;
+	width:8%;
+	background: #a41c54;
+	text-align:center;	
+}
+
+.ccformfield {
+	color: solid white;
+	background-color: #a41c54;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:#f8ae45;
+	color:#7b2626;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background:#d8850e;
+
+}
+.credit {
+  color:#fff;
+  width: 800px;
+  clear:both;
+margin:0 auto;
+  line-height:25px;
+ padding: 25px 50px; 
+}
+.credit em{
+margin-right:5px;
+}
+.credit a {
+color: #0d2ed5;
+font-weight: bold;
+text-decoration: none;
+}
