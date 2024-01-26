@@ -83,7 +83,7 @@ label {
 nav {
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(253, 0, 0);
     height: 77px;
 }
 
@@ -404,6 +404,44 @@ address {
         width: 100vw;
     }
 
+    /* header img[src="https://madridfutbol7.es/wp-content/uploads/2022/08/Tates-FC-Madridfutbol7.jpg"] {
+        display: none;
+    } */
+
+    .historiaTexto {
+
+        font-size: medium;
+    }
+
+    .flex-container {
+        /*al ser una tabla queremos que no sobresalga ni se corte, por lo que utilizamos una fuente de letra más pequeña que se adapte a la pantalla*/
+        font-size: xx-small;
+    }
+
+    .caja1 {
+        text-align: center;
+        font-size: auto;
+    }
+
+}
+
+
+@media (max-width:800px) {
+
+    /*@media para adaptar a la pantalla*/
+    body {
+        flex-wrap: wrap;
+    }
+
+    main {
+        width: 100%;
+    }
+
+   
+/* 
+    header img[src="https://madridfutbol7.es/wp-content/uploads/2022/08/Tates-FC-Madridfutbol7.jpg"] {
+        display: flex;
+    } */
     header img[src="https://madridfutbol7.es/wp-content/uploads/2022/08/Tates-FC-Madridfutbol7.jpg"] {
         display: none;
     }
@@ -416,6 +454,12 @@ address {
     .flex-container {
         /*al ser una tabla queremos que no sobresalga ni se corte, por lo que utilizamos una fuente de letra más pequeña que se adapte a la pantalla*/
         font-size: xx-small;
+        display: none;
+
+    }
+
+    #Clasificacion{
+        display: none;
     }
 
     .caja1 {

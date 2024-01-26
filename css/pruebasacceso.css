@@ -181,20 +181,6 @@ footer {
     background-position: center;
     background-size: cover;
   }
-@media screen and (max-width:500px) {
-    body,footer {
-        flex-wrap: wrap;
-    }
-
-    main {
-        width: 100vw;
-    }
-
-    header img[src="https://madridfutbol7.es/wp-content/uploads/2022/08/Tates-FC-Madridfutbol7.jpg"] {
-        display: none;
-    }
-
-}
 
 .wrapper{
     margin-top: 10px;
@@ -264,4 +250,95 @@ margin-right:5px;
 color: #0d2ed5;
 font-weight: bold;
 text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    body, footer {
+        flex-wrap: wrap;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    header img[src="https://madridfutbol7.es/wp-content/uploads/2022/08/Tates-FC-Madridfutbol7.jpg"] {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        margin-top: 10px;
+    }
+
+    .ccform {
+        margin: 0 auto;
+        width: 800px;
+    }
+
+    .ccfield-prepend {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .ccform-addon {
+        color: #298fc6;
+        float: left;
+        padding: 8px;
+        width: 8%;
+        background: #a41c54;
+        text-align: center;
+    }
+
+    .ccformfield {
+        color: solid white;
+        background-color: #a41c54;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: none;
+        padding: 15.5px;
+        width: 91.9%;
+        display: block;
+        font-family: 'Lato', Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    .ccformfield {
+        font-family: 'Lato', Arial, sans-serif;
+    }
+
+    .ccbtn {
+        display: block;
+        border: none;
+        background: #f8ae45;
+        color: #7b2626;
+        padding: 12px 25px;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .ccbtn:hover {
+        background: #d8850e;
+    }
+
+    .credit {
+        color: #fff;
+        width: 800px;
+        clear: both;
+        margin: 0 auto;
+        line-height: 25px;
+        padding: 25px 50px;
+    }
+
+    .credit em {
+        margin-right: 5px;
+    }
+
+    .credit a {
+        color: #0d2ed5;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }
